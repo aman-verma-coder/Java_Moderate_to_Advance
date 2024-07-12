@@ -1,4 +1,4 @@
-public class _21p6_chechPalindromeString {
+public class _21p6_checkPalindromeString {
     public static void checkPalindromeString(String str) {
         boolean result = true;
         for (int i = 0; i < str.length() / 2; i++) {
