@@ -14,11 +14,11 @@ public class _21p7_shortestPath {
                 System.out.println("Invalid direction character: " + str.charAt(i));
             }
         }
-        int netX = Math.abs(West - East);
+        int netX = (int) Math.abs(West - East);
         int netX2 = West - East;
-        int netY = Math.abs(North - South);
+        int netY = (int) Math.abs(North - South);
         int netY2 = North - South;
-        int shortestPath = (int) Math.sqrt(netX * netX + netY * netY);
+        Float shortestPath = (float) Math.sqrt(netX * netX + netY * netY);
         System.out.println("Shortest Path: " + shortestPath);
         if (netX2 < 0 && netY2 < 0) {
             System.out.println("Dirction: South-East");
