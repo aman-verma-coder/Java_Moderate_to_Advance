@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class _21p7_shortestPath {
     public static void shortestPath(String str) {
         int West = 0, East = 0, North = 0, South = 0;
@@ -22,19 +24,30 @@ public class _21p7_shortestPath {
         System.out.println("Shortest Path: " + shortestPath);
         if (netX2 < 0 && netY2 < 0) {
             System.out.println("Dirction: South-East");
+        } else if (netX2 < 0 && netY2 == 0) {
+            System.out.println("Dirction: East");
         } else if (netX2 > 0 && netY2 < 0) {
             System.out.println("Dirction: South-West");
+        } else if (netX2 > 0 && netY2 == 0) {
+            System.out.println("Dirction: West");
         } else if (netX2 < 0 && netY2 > 0) {
             System.out.println("Dirction: North-East");
+        } else if (netX2 == 0 && netY2 > 0) {
+            System.out.println("Dirction: North");
         } else if (netX2 > 0 && netY2 > 0) {
             System.out.println("Dirction: North-West");
+        } else if (netX2 == 0 && netY2 < 0) {
+            System.out.println("Dirction: South");
         } else {
             System.out.println("Not specified");
         }
     }
 
     public static void main(String[] args) {
-        String str = "WNEENESENNN";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the directions (W, E, N, S): ");
+        String str = sc.next();
         shortestPath(str);
+        sc.close();
     }
 }
