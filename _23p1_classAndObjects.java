@@ -1,4 +1,4 @@
-public class _23p21_classAndObjects {
+public class _23p1_classAndObjects {
     public static void main(String[] args) {
         Pen pen1 = new Pen();// Created a new pen object named as pen1
         pen1.setColor("Green");
