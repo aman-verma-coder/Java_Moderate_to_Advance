@@ -10,15 +10,15 @@ class Student2 {
     String name;
     int rollNo;
 
-    Student2() {
+    Student2() {//Non-Parameterized
         System.out.println("Constructor called");
     }
 
-    Student2(String name) {
+    Student2(String name) {//Parameterized
         System.out.println("Name: " + name);
     }
 
-    Student2(int rollNo) {
+    Student2(int rollNo) {//Parameterized
         System.out.println("Roll no.: " + rollNo);
     }
 }
