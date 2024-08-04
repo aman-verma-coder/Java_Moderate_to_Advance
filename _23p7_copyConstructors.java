@@ -27,8 +27,8 @@ class Student3 {
 
     Student3(Student3 s1) {// Copied Constructor
         marks = new int[3];
-        this.name = name;
-        this.roll = roll;
+        this.name = s1.name;
+        this.roll = s1.roll;
         this.marks = s1.marks;
     }
 
