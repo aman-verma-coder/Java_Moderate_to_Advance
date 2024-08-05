@@ -9,7 +9,7 @@ public class _23p10_inheritance {
     }
 }
 
-class Animal {
+class Animal {//Base Class or Parent Class
     String color;
 
     void eat() {
@@ -26,7 +26,7 @@ class Animal {
 
 }
 
-class Dog extends Animal {//Single Level Inheritance
+class Dog extends Animal {//Single Level Inheritance //Derived Class or Child Class
     int legs;
 
     void bark() {
