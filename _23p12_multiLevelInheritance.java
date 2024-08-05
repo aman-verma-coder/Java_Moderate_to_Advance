@@ -21,11 +21,11 @@ class Animal2 {
     }
 }
 
-class Mammals extends Animal2 {
+class Mammals extends Animal2 {//Single Level Inheritance
     int legs;
 }
 
-class Dog2 extends Mammals {
+class Dog2 extends Mammals {//Multi Level Inheritance
     void bark() {
         System.out.println("Barking...");
     }
