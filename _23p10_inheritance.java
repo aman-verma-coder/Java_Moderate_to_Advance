@@ -26,7 +26,7 @@ class Animal {
 
 }
 
-class Dog extends Animal {
+class Dog extends Animal {//Single Level Inheritance
     int legs;
 
     void bark() {
