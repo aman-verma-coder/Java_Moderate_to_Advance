@@ -8,7 +8,7 @@ public class _23p20_abstractClasses {
         // c.eat();
         // c.walk();
         // System.out.println(c.color);
-        Animal a=new Animal();
+        // Animal a=new Animal();
         Mustang m = new Mustang();// Animal-> Horse-> Mustang
     }
 }
