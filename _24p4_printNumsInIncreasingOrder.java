@@ -1,4 +1,4 @@
-public class _24p3_printNumsInIncreasingOrder {
+public class _24p4_printNumsInIncreasingOrder {
     public static void main(String[] args) {
         int n = 10;
         increasingNoPrint(n);
