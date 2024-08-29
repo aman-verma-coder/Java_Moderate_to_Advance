@@ -12,7 +12,7 @@ public class _25p4_friendsPairingProblem {
     }
 
     public static void main(String[] args) {
-        int n = 3;
+        int n = 4;
         System.out.println(friendsPair(n));
     }
 }
