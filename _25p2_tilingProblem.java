@@ -6,10 +6,11 @@ public class _25p2_tilingProblem {
         int fnm1 = calculateWays(n - 1);
         int fnm2 = calculateWays(n - 2);
         return fnm1 + fnm2;
+        // return calculateWays(n - 1) + calculateWays(n - 2);
     }
 
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         System.out.println(calculateWays(n));
     }
 }
